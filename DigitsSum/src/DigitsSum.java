@@ -8,7 +8,7 @@ public class DigitsSum
 		{
 			Scanner in = new Scanner(System.in);  
 			Scanner yesno = new Scanner(System.in);
-			System.out.print("Please input a digit between 0 - 1000 \n"); //Display prompt. This will let user input a number. Make sure not to use println refer to pg 51
+			System.out.print("Please input a number \n"); //Display prompt. This will let user input a number. Make sure not to use println refer to pg 51
 
 			int usernum = in.nextInt(); //user's input number
 			int separateDigit = 0; // separated digit from the user's integer
